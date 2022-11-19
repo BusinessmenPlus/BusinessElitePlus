@@ -1,13 +1,13 @@
 ---
-name: Bug report
-about: All other crashes or Bugs
-title: '[Bug]'
+name: Bug Report
+about: Crashes or Bugs
+title: '[Bug] Summary of Issue'
 labels: 'bug'
-assignees: ''
-
+assignees: 'YOYOK9'
 ---
+<!-- DO NOT TYPE BETWEEN ARROWS LIKE THESE -->
+<!-- These are comments that will not appear in your completed issue text -->
 
-Please Name your issue in the bar above ^^^^^^:EX: [bug] NAME OF ISSUE
 #### Issue Description:
 
 
@@ -18,28 +18,37 @@ Please Name your issue in the bar above ^^^^^^:EX: [bug] NAME OF ISSUE
 
 
 #### Steps to Reproduce in detail:
+<!-- You may use more than 3 steps, simply continue the numbering if required -->
 1.
 2.
 3.
-...
-#### Does it happen in Single Player: (yes or no) Please test
-[ ] Yes
 
-[ ] No
+#### Does it happen in Single Player:
+<!-- Please test and place an 'x' in the appropriate space -->
+- [ ] Yes
+- [ ] No
 
-#### Does it happen on the Server: (yes or no)
-[ ] Yes
+#### Does it happen on the Server:
+<!-- Please test and place an 'x' in the appropriate space -->
+- [ ] Yes
+- [ ] No
 
-[ ] No
+#### Pack Version(s):
+<!--
+DO NOT LEAVE BLANK
+Ex. V165.1.0.1
+-->
 
-#### Pack Versions: Ex(V165.1.0.1)
-(DO NOT LEAVE BLANK) 
+#### Mods Affected:
+<!--
+DO NOT LEAVE BLANK
+Ex: Quark, AE2, etc.
+--> 
 
-#### Mods Effected: Ex: (Quark, AE2, ect) 
-(DO NOT LEAVE BLANK)
+#### Your most recent log file where the issue was present or a screenshot of the issue:
+<!--
+DO NOT LEAVE BLANK.
+GitHub will allow you to upload images directly, however we request that you use GitHub gist (https://gist.github.com) to post logs as they can get quite large.
 
-
-#### Your most recent log file where the issue was present or a screenshot of the issue:  ex: (log folder or crash reports or screenshot folder)
-(DO NOT LEAVE BLANK. If you dont know ask for help in our discord)
-
-[Pastebin/Gist/Pictures LINK here]
+latest.log and debug.log are preferred, however launcher_log.txt might be needed in some cases
+-->
